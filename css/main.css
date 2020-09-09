@@ -1,4 +1,16 @@
 @charset "UTF-8";
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
 body {
   color: #757575;
   font-family: "Roboto", sans-serif;
@@ -18,13 +30,6 @@ img {
 
 ul {
   list-style: none;
-}
-
-.container {
-  margin: 0 auto;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 /* Logo */
@@ -51,6 +56,18 @@ footer .logo {
 
 .logo > span {
   color: #2196f3;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* Cтили для index.html */
@@ -178,9 +195,9 @@ footer .logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 600px;
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
+  padding: 200px 452px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero.jpg");
   background-repeat: no-repeat;
   background-position: right top;
@@ -188,7 +205,7 @@ footer .logo {
 }
 
 .hero-section {
-  max-width: 696px;
+  min-width: 696px;
   text-align: center;
 }
 
@@ -219,24 +236,7 @@ footer .logo {
 }
 
 /* Section advantages */
-.visually-hidden {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px);
-  /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0 !important;
-  border: 0 !important;
-  height: 1px !important;
-  width: 1px !important;
-  overflow: hidden;
-}
-
 /* Features */
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .section.feature {
   padding-bottom: 0;
 }
