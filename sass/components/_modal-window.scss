@@ -134,13 +134,6 @@
 //   color: rgba(117, 117, 117, 0.5);
 // }
 
-.modal-form-check:checked + .label-form-modal-check::before {
-  background-color: $accent-color;
-  background-image: url("../images/check.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  border: none;
-}
 .label-form-modal-check {
   display: flex;
   align-items: center;
@@ -156,6 +149,13 @@
     border: 2px solid $title-text-color;
     background-color: $primary-white-color;
     margin-right: 6px;
+    .modal-form-check:checked + & {
+      background-color: $accent-color;
+      background-image: url("../images/check.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      border: none;
+    }
   }
 }
 

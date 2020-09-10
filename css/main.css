@@ -288,14 +288,6 @@ footer .logo {
   color: #757575;
 }
 
-.modal-form-check:checked + .label-form-modal-check::before {
-  background-color: #2196f3;
-  background-image: url("../images/check.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  border: none;
-}
-
 .label-form-modal-check {
   display: flex;
   align-items: center;
@@ -312,6 +304,14 @@ footer .logo {
   border: 2px solid #212121;
   background-color: #ffffff;
   margin-right: 6px;
+}
+
+.modal-form-check:checked + .label-form-modal-check::before {
+  background-color: #2196f3;
+  background-image: url("../images/check.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
 }
 
 .modal-check-link {
