@@ -17,12 +17,13 @@
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-}
-.page-nav .item:not(:last-child) {
-  margin-right: 8px;
-}
-.page-nav .button-nav:hover,
-.page-nav .button-nav:focus {
-  background-color: $accent-color;
-  color: $primary-white-color;
+
+  & .item:not(:last-child) {
+    margin-right: 8px;
+  }
+  & .button-nav:hover,
+  & .button-nav:focus {
+    background-color: $accent-color;
+    color: $primary-white-color;
+  }
 }

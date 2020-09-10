@@ -1,16 +1,15 @@
-.section.team {
-  background-color: $background-color;
-}
 .our-team {
   display: flex;
   flex-wrap: wrap;
-}
-.our-team .item {
+
+  & .item {
   width: 270px;
-}
-.our-team .item:not(:last-child) {
+  &:not(:last-child) {
   margin-right: 30px;
 }
+}
+}
+
 .img-mate {
   width: 270px;
 }
