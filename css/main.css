@@ -590,10 +590,6 @@ footer .logo {
   margin-right: 30px;
 }
 
-.img-mate {
-  width: 270px;
-}
-
 .section .team-mate {
   margin-top: 0;
   margin-bottom: 10px;
@@ -606,7 +602,6 @@ footer .logo {
 }
 
 .team-info {
-  width: 270px;
   background-color: #ffffff;
   padding-top: 30px;
   padding-bottom: 30px;

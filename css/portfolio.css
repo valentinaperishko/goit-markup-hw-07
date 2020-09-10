@@ -167,7 +167,7 @@ footer .logo {
   padding-bottom: 94px;
 }
 
-.button-nav {
+.portfolio-button {
   border: 1px solid #f5f4fa;
   border-radius: 4px;
   padding: 6px 22px;
@@ -181,18 +181,18 @@ footer .logo {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.page-nav {
+.portfolio-filter {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.page-nav .item:not(:last-child) {
+.portfolio-filter .item:not(:last-child) {
   margin-right: 8px;
 }
 
-.page-nav .button-nav:hover,
-.page-nav .button-nav:focus {
+.portfolio-filter .portfolio-button:hover,
+.portfolio-filter .portfolio-button:focus {
   background-color: #2196f3;
   color: #ffffff;
 }
@@ -288,7 +288,7 @@ footer .logo {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.img {
+.project-image-wrapper {
   position: relative;
   overflow: hidden;
 }
