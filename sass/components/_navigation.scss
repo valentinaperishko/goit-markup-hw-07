@@ -31,9 +31,8 @@
     &:hover,
     &:focus {
       color: $accent-color;
-    }
-  }
-  .current {
+
+      &.current {
     color: $accent-color;
     letter-spacing: 0.02em;
 
@@ -49,4 +48,6 @@
       top: 43px;
     }
   }
-}
+    }
+  }
+  }
