@@ -21,6 +21,7 @@
   & .item:not(:last-child) {
     margin-right: 8px;
   }
+
   & .portfolio-button:hover,
   & .portfolio-button:focus {
     background-color: $accent-color;

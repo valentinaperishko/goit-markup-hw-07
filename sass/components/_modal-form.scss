@@ -31,6 +31,7 @@
     border-color: $accent-color;
     outline: none;
   }
+
   &::placeholder {
     font-weight: 400;
     font-size: 12px;
@@ -85,6 +86,7 @@
     border: 2px solid $title-text-color;
     background-color: $primary-white-color;
     margin-right: 6px;
+
     .modal-form-check:checked + & {
       background-color: $accent-color;
       background-image: url("../images/check.svg");
@@ -103,6 +105,7 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
 .modal-span {
   font-weight: 400;
   font-size: 14px;
@@ -110,6 +113,12 @@
   letter-spacing: 0.03em;
   color: $primary-text-color;
 }
+
 .checkbox-field {
   text-align: center;
+}
+
+.modal-form .button {
+  width: 200px;
+  height: 50px;
 }

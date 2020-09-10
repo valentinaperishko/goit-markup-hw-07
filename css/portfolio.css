@@ -56,12 +56,12 @@ footer .logo {
   color: #2196f3;
 }
 
-.main-nav {
+.page-header .container {
   display: flex;
   align-items: center;
 }
 
-.auth-nav {
+.navigation {
   display: flex;
   align-items: center;
 }
@@ -145,11 +145,7 @@ footer .logo {
   fill: #2196f3;
 }
 
-.tel-item-svg {
-  margin-right: 10px;
-  fill: #757575;
-}
-
+.tel-item-svg,
 .mail-item-svg {
   margin-right: 10px;
   fill: #757575;

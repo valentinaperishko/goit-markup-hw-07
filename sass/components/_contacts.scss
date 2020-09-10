@@ -22,10 +22,12 @@
     &:hover,
     &:focus {
       color: $accent-color;
+
       & .mail-item-svg,
       & .mail-item-svg {
         fill: $accent-color;
       }
+
       & .tel-item-svg,
       & .tel-item-svg {
         fill: $accent-color;
@@ -34,10 +36,7 @@
   }
 }
 
-.tel-item-svg {
-  margin-right: 10px;
-  fill: $primary-text-color;
-}
+.tel-item-svg,
 .mail-item-svg {
   margin-right: 10px;
   fill: $primary-text-color;
