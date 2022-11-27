@@ -1,0 +1,39 @@
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature-item {
+  width: 270px;
+
+  & + .feature-item {
+    margin-left: 30px;
+  }
+}
+
+.feature-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+
+  background-color: $secondary-bcg-color;
+  border-radius: 4px;
+}
+
+.feature-title {
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+
+  text-transform: uppercase;
+}
+
+.feature-text {
+  color: $secondary-text-color;
+  line-height: 1.71;
+}
